@@ -1,10 +1,10 @@
 #include "main"
 
 /**
- * leet - Encodes a string to 1337
+ * leet - encodes a string into 1337
  * @s: string to encode
  *
- * Return: adress of s
+ * Return: address of s
  */
 char *leet(char *s)
 {
@@ -17,7 +17,7 @@ char *leet(char *s)
 		for (j = 0; j <= 9; j++)
 		{
 			if (a[j] == *(s + i))
-				*(s + i) = b[j]
+				*(s + i) = b[j];
 		}
 	}
 	return (s);
